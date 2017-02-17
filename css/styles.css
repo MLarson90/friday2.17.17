@@ -8,7 +8,12 @@
   padding:20px;
   margin-top:-3%;
 
+
 }
+.navLink{
+  color:blue;
+}
+
 .navBar:hover{
   background: white;
   color:grey;
@@ -61,6 +66,9 @@ p{
   color: white;
   text-align:center;
 }
+#submitBtn{
+  margin:20px 10px;
+}
 .resultTitle{
   background:green;
   color:white;
@@ -70,6 +78,7 @@ p{
   margin:40px;
   font-size:25px;
 }
+
 #java{
   display:none;
 

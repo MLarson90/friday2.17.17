@@ -24,12 +24,12 @@ $(document).ready(function(){
     $("#php").hide();
     $("#java").hide();
     $("#cc").show();
-  }else if ((question1 === "a" || question1 === "b") && (question3 === "c")){
+  }else if ((question2 === "a" || question1 === "b") && (question3 === "c")){
     $("ruby").hide();
     $("#java").hide();
     $("#cc").hide();
     $("#php").show();
-  }else if ((question1 === "c") && (question2 === "a")){
+  }else if (question1 === "c" && question2 === "a"){
     $("#ruby").hide();
     $("#java").hide();
     $("#cc").hide();
@@ -49,7 +49,7 @@ $(document).ready(function(){
     $("#cc").show();
     $("#php").show();
     $("ruby").hide();
-  }else if ((question3 === "a" || question3 === "c") && (question2 === "a")){
+  }else if ((question3 === "a" || question3 === "c") && (question2 === "b")){
     $("#ruby").hide();
     $("#java").hide();
     $("#cc").hide();
