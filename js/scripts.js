@@ -10,7 +10,7 @@ $(document).ready(function(){
     var question4 = $("input:radio[name=question4]:checked").val();
     var question5 = $("input:radio[name=question5]:checked").val();
     var nameInput = $("input#name").val();
-    $(".student").append(nameInput);
+    $(".student").text(nameInput);
 
     if(!question1 || !question2 || !question3 || !question4 || !question5){
     alert("Please finish filling out questions!");

@@ -12,6 +12,7 @@
 .navBar:hover{
   background: white;
   color:grey;
+  border-radius: 10px;
 }
 .navBack{
   position:fixed;
@@ -27,25 +28,31 @@
 .topper{
   text-align: center;
   margin-top: 260px;
+
   }
   #topper{
   background-color: blue;
   color:white;
   font-size:60px;
   padding:100px;
+  border: 4px solid black;
 }
 #topPhoto{
   width:60%;
 
 }
 h2{
-
+  border-bottom: 4px double black;
   color:blue;
   padding:10px;
   margin-bottom:30px;
 }
 p{
   margin: 5px;
+}
+#survey{
+  border-bottom: 4px double black;
+  margin-bottom:40px;
 }
 #surveyHead{
   margin-top: 50px;
@@ -54,15 +61,36 @@ p{
   color: white;
   text-align:center;
 }
+.resultTitle{
+  background:green;
+  color:white;
+  border: 2px double black;
+}
+.resultPar{
+  margin:40px;
+  font-size:25px;
+}
 #java{
   display:none;
+
+  border-bottom: 4px double black;
 }
 #ruby{
   display:none;
+
+  border-bottom: 4px double black;
 }
 #php{
   display:none;
+
+  border-bottom: 4px double black;
 }
 #cc{
   display:none;
+
+  border-bottom: 4px double black;
+}
+.lastThoughts p{
+  font-size: 20px;
+  text-align: center;
 }
