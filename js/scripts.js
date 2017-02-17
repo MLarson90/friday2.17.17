@@ -18,47 +18,47 @@ $(document).ready(function(){
     $("#ruby").hide();
     $("#cc").hide();
     $("#php").hide();
-    $("#java").show();
+    $("#java").fadeIn();
   }else if ((question1 === "a" || question1 === "b") && question3 === "b"){
     $("#ruby").hide();
     $("#php").hide();
     $("#java").hide();
-    $("#cc").show();
+    $("#cc").fadeIn();
   }else if ((question2 === "a" || question1 === "b") && (question3 === "c")){
     $("ruby").hide();
     $("#java").hide();
     $("#cc").hide();
-    $("#php").show();
+    $("#php").fadeIn();
   }else if (question1 === "c" && question2 === "a"){
     $("#ruby").hide();
     $("#java").hide();
     $("#cc").hide();
-    $("#php").show();
+    $("#php").fadeIn();
   }else if ((question2 === "a" || question2 === "c") && (question3 === "b")){
     $("#java").hide();
     $("#cc").hide();
     $("#php").hide();
-    $("#ruby").show();
+    $("#ruby").fadeIn();
   }else if ((question2 === "a" || question3 === "c") && (question1 === "a")){
     $("#java").hide();
     $("#cc").hide();
     $("#php").hide();
-    $("#ruby").show();
+    $("#ruby").fadeIn();
   }else if ((question1 === "a" || question2 === "c") && (question3 === "a")){
     $("#java").hide();
-    $("#cc").show();
-    $("#php").show();
+    $("#cc").fadeIn();
+    $("#php").hide();
     $("ruby").hide();
   }else if ((question3 === "a" || question3 === "c") && (question2 === "b")){
     $("#ruby").hide();
     $("#java").hide();
     $("#cc").hide();
-    $("#php").show();
+    $("#php").fadeIn();
   }else{
     $("#ruby").hide();
     $("#cc").hide();
     $("#php").hide();
-    $("#java").show();
+    $("#java").fadeIn();
   };
 
   });
