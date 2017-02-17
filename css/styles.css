@@ -54,3 +54,15 @@ p{
   color: white;
   text-align:center;
 }
+#java{
+  display:none;
+}
+#ruby{
+  display:none;
+}
+#php{
+  display:none;
+}
+#cc{
+  display:none;
+}

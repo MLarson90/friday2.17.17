@@ -59,10 +59,13 @@
       <!--Survey!-->
       <h1 id="surveyHead">Still don't know what languge you want to try?</h1>
       <h3>Take this survey to help match your wants to a language:</h3>
-
+    <form id="survey">
+      <div class = "form-group">
+        <label for="name">Tell us your name</label>
+        <input id ="name" class="form-control" type="text">
+      </div>
       <p>Would you rather work for:</p>
-      <form id="survey">
-      <div class= "radio">
+        <div class= "radio">
           <label>
             <input type="radio" name="question1" value="a">
             A big company
@@ -81,94 +84,80 @@
               Yourself
             </label>
         </div>
-        <!--
-        <select class="form-control" id="questionA">
-          <option value="a">A big company</option>
-          <option value="b"> a start-up</option>
-          <option value="c"> Yourself</option>
-        </select>
-        !-->
           <p>Do you prefer to work with:</p>
+        <div class= "radio">
+          <label>
+            <input type="radio" name="question2" value="a">
+            Data manipulating/organizing
+          </label>
+        </div>
+        <div class= "radio">
+          <label>
+            <input type="radio" name="question2" value="b">
+            The design of a webpage
+          </label>
+         </div>
           <div class= "radio">
             <label>
-              <input type="radio" name="question2" value="a">
-              Data manipulating/organizing
+              <input type="radio" name="question2" value="c">
+              Some of both
             </label>
-          </div>
+        </div>
+          <p>Would you like to work on:</p>
+        <div class= "radio">
+          <label>
+            <input type="radio" name="question3" value="a">
+            Apps for mobile phones
+          </label>
+        </div>
+        <div class= "radio">
+          <label>
+            <input type="radio" name="question3" value="b">
+            Professional websites
+          </label>
+         </div>
           <div class= "radio">
             <label>
-              <input type="radio" name="question2" value="b">
-              The design of a webpage
+              <input type="radio" name="question3" value="c">
+              Building new software
             </label>
-           </div>
-            <div class= "radio">
-              <label>
-                <input type="radio" name="question2" value="c">
-                Some of both
-              </label>
-          </div>
-          <!--
-          <select class="form-control" id="questionB">
-            <option value="apple">Data manipulating</option>
-            <option value="banana"> The design of a webpage</option>
-            <option value="cat"> Some of both</option>
-          </select>
-          !-->
-       <p>Would you like to work on:</p>
+        </div>
+        <p>Choose which one you like best:</p>
+        <div class= "radio">
+          <label>
+            <input type="radio" name="question4" value="a">
+            Working alone
+          </label>
+        </div>
+        <div class= "radio">
+          <label>
+            <input type="radio" name="question4" value="b">
+            Working in a team
+          </label>
+         </div>
           <div class= "radio">
             <label>
-              <input type="radio" name="question3" value="a">
-              Apps for mobile phones
+              <input type="radio" name="question4" value="c">
+              Working mostly alone with your work being a piece of a team project
             </label>
-          </div>
-          <div class= "radio">
-            <label>
-              <input type="radio" name="question3" value="b">
-              Professional websites
-            </label>
-           </div>
-            <div class= "radio">
-              <label>
-                <input type="radio" name="question3" value="c">
-                Building new software
-              </label>
-          </div>
-          <p>Choose which one you like best:</p>
-          <div class= "radio">
-            <label>
-              <input type="radio" name="question4" value="a">
-              Working alone
-            </label>
-          </div>
-          <div class= "radio">
-            <label>
-              <input type="radio" name="question4" value="b">
-              Working in a team
-            </label>
-           </div>
-            <div class= "radio">
-              <label>
-                <input type="radio" name="question4" value="c">
-                Working mostly alone with your work being a piece of a team project
-              </label>
-          </div>
-          <button type="submit" class ="btn">Results</button>
-      </form>
+        </div>
+        <button type="submit" class ="btn">Results</button>
+    </form>
       <!--Answers!-->
-      <div class="java">
-        <h2>Try our Java and Android course!</h2>
+      <div id="java">
+        <h2><em><span class="student"></span></em> Try our Java and Android course!</h2>
         <p>Java and Android is an exciting language that will allow you to work anywhere from a small start up to some of the biggest companies on the market right now. It is great for those who love designing beautiful front-end designs but will also allow you to dip into the back-end.</p>
       </div>
-      <div class="ruby">
-        <h2>Try our Ruby and Rails course!</h2>
+      <div id="ruby">
+        <h2><em><span class="student"></span></em> Try our Ruby and Rails course!</h2>
         <p>Ruby and Rails will allow you to dive deep into the world of backend and let you play with numbers and data to make new exciting software. If you're a lone wolf or working with a team Ruby will help you complete projects that can push technologies to new places.</p>
       </div>
-      <div class="php">
-        <h2>Try our PHP and Drouple course!</h2>
+      <div id="php">
+        <h2><em><span class="student"></span></em> Try our PHP and Drouple course!</h2>
         <p>PHP and Drupal will allow you to find a career where you get to see your hard work on the back end come to life. It is a language where you will work closely to the front end team to acheive dynamic and "smart" programs that also look appealing to the user.
       </div>
-      <div class="C#">
-        <h2>Try our C# and .Net course!</h2>
+      <div id="cc">
+        <h2><em><span class="student"></span></em> Try our C# and .Net course!</h2>
         <p>C# and .Net is a great way to get in with some big companies, knowing it will allow you to work on projects wither front-end or back end. It is also great for if you want to work as a private contractor.</p>
       </div>
     </div>
