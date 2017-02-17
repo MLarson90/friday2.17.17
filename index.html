@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type"text/javascript" src="js/scripts.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>What programming language is right for you?</title>
@@ -62,12 +62,13 @@
 
       <p>Would you rather work for:</p>
       <form id="survey">
-        <div class= "radio">
+      <div class= "radio">
           <label>
             <input type="radio" name="question1" value="a">
             A big company
           </label>
         </div>
+
         <div class= "radio">
           <label>
             <input type="radio" name="question1" value="b">
@@ -80,6 +81,13 @@
               Yourself
             </label>
         </div>
+        <!--
+        <select class="form-control" id="questionA">
+          <option value="a">A big company</option>
+          <option value="b"> a start-up</option>
+          <option value="c"> Yourself</option>
+        </select>
+        !-->
           <p>Do you prefer to work with:</p>
           <div class= "radio">
             <label>
@@ -99,7 +107,14 @@
                 Some of both
               </label>
           </div>
-          <p>Would you like to work on:</p>
+          <!--
+          <select class="form-control" id="questionB">
+            <option value="apple">Data manipulating</option>
+            <option value="banana"> The design of a webpage</option>
+            <option value="cat"> Some of both</option>
+          </select>
+          !-->
+       <p>Would you like to work on:</p>
           <div class= "radio">
             <label>
               <input type="radio" name="question3" value="a">
@@ -139,6 +154,7 @@
           </div>
           <button type="submit" class ="btn">Results</button>
       </form>
+      <!--Answers!-->
     </div>
   </body>
 </html>
