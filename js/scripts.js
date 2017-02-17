@@ -13,8 +13,8 @@ $(document).ready(function(){
     if(!question1 || !question2 || !question3 || !question4){
     alert("Please finish filling out questions!");
   }else if ((question1 === "a" || question1 === "b") && (question2 === "b" || question2 === "c")){
-    alert("Java!");
-    };
+    ("#java!").show();
+    }
 
   });
 });
