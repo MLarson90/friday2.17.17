@@ -1,0 +1,28 @@
+.navBar{
+  display:inline;
+  padding: 30px;
+  background:grey;
+  color:white;
+  font-size:20px;
+  margin-left: 170px;
+}
+.navBar:hover{
+  background: white;
+  color:grey;
+}
+.navBack{
+  background:grey;
+  padding: 30px;
+}
+.topper{
+  text-align: center;
+  }
+  #topper{
+  background-color: blue;
+  color:white;
+  font-size:60px;
+  padding:100px;
+}
+#topPhoto{
+  width:60%;
+}
