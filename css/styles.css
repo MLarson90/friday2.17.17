@@ -1,21 +1,32 @@
 .navBar{
   display:inline;
-  padding: 30px;
+  margin-left:8%;
   background:grey;
   color:white;
   font-size:20px;
-  margin-left: 170px;
+  float:left;
+  padding:20px;
+  margin-top:-3%;
+
 }
 .navBar:hover{
   background: white;
   color:grey;
 }
 .navBack{
+  position:fixed;
   background:grey;
-  padding: 30px;
+  width:87%;
+  height:10%;
+
+}
+#navPhoto{
+
+  width: 10%;
 }
 .topper{
   text-align: center;
+  margin-top: 260px;
   }
   #topper{
   background-color: blue;
@@ -25,4 +36,14 @@
 }
 #topPhoto{
   width:60%;
+
+}
+h2{
+
+  color:blue;
+  padding:10px;
+  margin-bottom:30px;
+}
+p{
+  margin: 5px;
 }
