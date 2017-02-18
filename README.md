@@ -13,7 +13,7 @@
 
 Technologies
 
- _JavaScript with jQuery as well as Bootstrap for css
+ JavaScript with jQuery as well as Bootstrap for css
 
  License
  _copyright Max Larson 2017_
