@@ -1,34 +1,36 @@
 .navBar{
   display:inline;
-  margin-left:8%;
-  background:grey;
+
+  background:;
   color:white;
   font-size:20px;
-  float:left;
-  padding:20px;
-  margin-top:-3%;
 
-
+  margin-left:15%;
+  margin-top:35px;
+  position: relative;
 }
 .navLink{
   color:blue;
+  padding:40px;
 }
 
 .navBar:hover{
-  background: white;
-  color:grey;
+  
+  color:white;
   border-radius: 10px;
+  text-decoration: none;
 }
 .navBack{
-  position:fixed;
+  text-align: center;
   background:grey;
-  width:1140px;
-  height:10%;
-
+  height:90px;
+  padding:10px 350px;
 }
 #navPhoto{
+  height:70px;
 
-  width: 10%;
+  float:left;
+  margin:10px
 }
 .topper{
   text-align: center;
