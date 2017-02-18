@@ -1,10 +1,8 @@
 .navBar{
   display:inline;
-
   background:;
   color:white;
   font-size:20px;
-
   margin-left:15%;
   margin-top:35px;
   position: relative;
@@ -13,9 +11,7 @@
   color:blue;
   padding:40px;
 }
-
 .navBar:hover{
-  
   color:white;
   border-radius: 10px;
   text-decoration: none;
@@ -28,16 +24,14 @@
 }
 #navPhoto{
   height:70px;
-
   float:left;
   margin:10px
 }
 .topper{
   text-align: center;
   margin-top: 260px;
-
   }
-  #topper{
+#topper{
   background-color: blue;
   color:white;
   font-size:60px;
@@ -46,7 +40,6 @@
 }
 #topPhoto{
   width:60%;
-
 }
 h2{
   border-bottom: 4px double black;
@@ -80,25 +73,20 @@ p{
   margin:40px;
   font-size:25px;
 }
-
 #java{
   display:none;
-
   border-bottom: 4px double black;
 }
 #ruby{
   display:none;
-
   border-bottom: 4px double black;
 }
 #php{
   display:none;
-
   border-bottom: 4px double black;
 }
 #cc{
   display:none;
-
   border-bottom: 4px double black;
 }
 .lastThoughts p{
